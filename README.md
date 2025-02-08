@@ -1,98 +1,38 @@
-OSKernelProject License
+# OSKernelProject
 
-Version: 1.0  
-Date: YYYY-MM-DD
+## Overview
+OSKernelProject is an experimental operating system kernel that incorporates both original code and portions borrowed from third-party projects. The project includes:
 
----
+- **Original code** developed specifically for OSKernelProject.
+- **Code borrowed from the Linux kernel** (GPLv2 License).
+- **Code adapted from xv6** (MIT License).
 
-1. Overview
+## Licensing
+This project is distributed under the **GNU General Public License, version 2 (GPLv2)**.
 
-OSKernelProject is an experimental operating system kernel aiming to bootstrap essential functionality using both original code and code borrowed from third-party projects. This document sets forth the licensing terms for:
+### 🔹 **Third-Party Code**
+- Portions of OSKernelProject **borrow files from the Linux kernel**, which are licensed under **GPLv2**.
+- Some components are adapted from **xv6**, which is originally licensed under **MIT** but is re-distributed here under **GPLv2** for compatibility.
+- Borrowed files **retain their original license headers**.
 
-- The original code in OSKernelProject  
-- Code borrowed or adapted from xv6 (MIT License)  
-- Code borrowed or adapted from Linux (GPLv2 License)
+### 🔹 **Compliance Requirements**
+- As per **GPLv2**, any modifications and redistributions of OSKernelProject must **also be licensed under GPLv2**.
+- The **full text of GPLv2 is included in the `COPYING` file**.
+- The **MIT License for xv6-derived files is retained in a separate `LICENSE-MIT` file**.
 
-Because OSKernelProject includes source code derived from the Linux kernel, the overall project (as a combined/derivative work) is distributed under the terms of the GNU General Public License, version 2 (GPLv2). Portions of OSKernelProject that originate from xv6 remain under the MIT License but are redistributed here in compliance with the GPLv2 in the combined work. Per the terms of the MIT License, we have retained all copyright notices.
+## Usage & Redistribution
+By using, modifying, or distributing OSKernelProject, you agree to the terms of **GPLv2**.  
+For full license details, please see:
 
-Below is a summary of how each part of the codebase is licensed, followed by the full text of the applicable licenses.
+- 📜 **COPYING** → Full text of GPLv2  
+- 📜 **LICENSE-MIT** → xv6's original MIT License (for reference)
 
----
+## Disclaimer
+OSKernelProject is distributed **WITHOUT ANY WARRANTY**, including the implied warranties of **merchantability or fitness for a particular purpose**. See **GPLv2** for details.
 
-2. License Summary
-
-1. Original OSKernelProject Code  
-   - Licensed under the terms of the GNU General Public License, version 2.
-
-2. Portions Derived from xv6 (MIT License)  
-   - Files Borrowed from xv6:  
-     - file_xv6_1.c  
-     - file_xv6_2.c  
-     - file_xv6_3.h  
-     - (Add additional files here)  
-   - These files were originally licensed under the MIT License. In this distribution, they are included and adapted under GPLv2 to form part of OSKernelProject. The MIT License text for these xv6-derived files is reproduced in Section 4 of this document.  
-   - Note: The MIT License is permissive and allows re-licensing under GPLv2; however, you (the user) still receive the original MIT rights for that code as well.
-
-3. Portions Derived from the Linux Kernel (GPLv2)  
-   - Files Borrowed from Linux:  
-     - file_linux_1.c  
-     - file_linux_2.h  
-     - (Add additional files here)  
-   - These files or snippets are licensed under the GNU General Public License, version 2. Their inclusion means that the combined work must be distributed under GPLv2, in accordance with the license’s copyleft requirements. The text of GPLv2 is provided in Section 3.
-
-By using, modifying, or distributing OSKernelProject, you agree to the terms and conditions in Section 3. A copy of this license must be provided in any redistribution of OSKernelProject.
+## Contact
+For questions about licensing or contributions, contact the project maintainers.
 
 ---
 
-3. GPLv2 License Text
-
-GNU GENERAL PUBLIC LICENSE Version 2, June 1991  
-
-Copyright (C) 1989, 1991  
-Free Software Foundation, Inc.  
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA  
-
-Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
-
-[... Insert the complete, unmodified text of GPLv2 here ...]
-
-END OF TERMS AND CONDITIONS
-
----
-
-4. MIT License Text
-
-The following notice applies only to the code borrowed from xv6. The original xv6 sources are distributed by MIT under the following license. While xv6 code in this project is re-licensed collectively under GPLv2 for OSKernelProject’s combined work, the text of the MIT License is included to give credit and document its original terms.
-
-MIT License  
-
-Copyright (c) [Year(s)] the xv6 Authors  
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-[... Insert the complete, unmodified text of the MIT License here ...]
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
-
-5. How to Contribute
-
-If you wish to contribute to OSKernelProject, you acknowledge that your contributions will be licensed under the GPLv2, unless explicitly stated otherwise. All contributions must be compatible with the existing licenses in this project.
-
----
-
-6. Disclaimer
-
-OSKernelProject is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License, version 2 for more details.
-
----
-
-7. Contact
-
-If you have questions about licensing or usage of OSKernelProject, please contact the project maintainers or consult your legal counsel for advice.
-
----
-
-End of OSKernelProject License File
 
