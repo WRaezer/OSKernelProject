@@ -1,0 +1,11 @@
+OSKernelProjectRequirements:
+From XV6 Borrow:
+1. Bootloader, linker, and x86 initialization code.
+2. Get to where the kernel executes the kernel entry point.
+3. Code borrowed for read and write to x86 IOPorts.
+
+To write myself:
+1. The context switching code should be written myself where the current stack saves the state of the currently executing register file.
+2. The stack allocation code to make space for the process control entry.
+3. The ability to start with voluntarily yielding the CPU to execute a separate process.
+4. Determining the base of the stack as well as how much space to allocate for the processes that are pushed and popped on the stack.
